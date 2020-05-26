@@ -2,12 +2,9 @@
 <html>
 
 <style>
-
-
-
-
+	
 	/* font */
-	@font-face {
+    @font-face {
 		font-family: moon;
 		src: url(Moon2.0-Regular.otf);
 	}
@@ -34,6 +31,11 @@
         font-family: moon;
         font-weight: lighter;
     }
+	
+	.section {
+		margin-left: 2em;
+		margin-right: 2em;
+	}
 
     .fix-left-panel {
         display: block;
@@ -91,7 +93,7 @@
     }
 
 	p {
-	text-align: justify;
+		text-align: justify;
         font-family: moon;
         font-weight: lighter;
         width: 35em;
@@ -150,13 +152,11 @@
 ">About</a>
 </p>   
 <p class="nav-elem-word">    
-
     <a href="#resume" class="nav-elem" style="
     padding-right: 14px;
 ">Resume</a>
 </p>   
 <p class="nav-elem-word">    
-
     <a href="#contact" class="nav-elem" style="
     padding-right: 10px;
     padding-left: 10px;
@@ -166,9 +166,8 @@
 
 
 <!-- HOME PAGE -->
-<div style="padding-right: 5em; padding-left: 5em;">
+<div style="padding-right: 5em; padding-left: 5em;" class="section">
 
-<!-- file:///Users/Katie/Desktop/IMG_0516.jpeg -->
 <img src="https://raw.githubusercontent.com/zKatie0111/zKatie0111.github.io/master/IMG_0516.jpeg" class="sticky" style="float:right;width:30%;min-width:200px;" alt="Cute Midnight on Bed">
 
 <p>Hey! I'm Katie Li, and this is my website. I'm a rising sophomore studying computer science at the University of Pennsylvania. </p>
@@ -178,7 +177,7 @@
 </div>
 </div>
 <!-- PORTFOLIO SECTION -->
-<div style="background-color: #F6F6F6;"> 
+<div style="background-color: #F6F6F6;" class="section"> 
     
     
     <h2 id="projects">Projects</h2> 
@@ -199,11 +198,11 @@
     
     </div>
 <!-- ABOUT SECTION -->
-<div> <h2 id="about">About</h2> </div>
+<div class="section"> <h2 id="about">About</h2> </div>
 <!-- RESUME SECTION -->
-<div style="background-color: #F6F6F6;"> <h2 id="resume">Resume</h2> </div>
+<div style="background-color: #F6F6F6;" class="section"> <h2 id="resume">Resume</h2> </div>
 <!-- CONTACT SECTION -->
-<div> <h2 id="contact">Contact</h2> </div>
+<div class="section"> <h2 id="contact">Contact</h2> </div>
 
 
 
